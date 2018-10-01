@@ -4158,35 +4158,35 @@ function part_208059(s_208061) {
 
 	var F={procname:"sections.part",prev:framePtr,filename:"sections.nim",line:0};
 	framePtr = F;
-		F.line = 17;
-		F.line = 17;
+		F.line = 15;
+		F.line = 15;
 		var tmp_208078 = tree_137048(17, []);
-		F.line = 17;
+		F.line = 15;
 		tmp_208078.class = "bg-white";
-		F.line = 17;
+		F.line = 15;
 		tmp_208078.id = toJSStr(get_str_179679(HEX5BHEX5D_190196(s_208061, makeNimstrLit("title")), []));
-		F.line = 18;
+		F.line = 16;
 		var tmp_208085 = tree_137048(43, []);
-		F.line = 18;
+		F.line = 16;
 		tmp_208085.class = "container";
-		F.line = 19;
+		F.line = 17;
 		var tmp_208091 = tree_137048(43, []);
-		F.line = 19;
+		F.line = 17;
 		tmp_208091.class = "row";
-		F.line = 20;
+		F.line = 18;
 		var tmp_208097 = tree_137048(43, []);
-		F.line = 20;
+		F.line = 18;
 		tmp_208097.class = "col-sm-6";
-		F.line = 21;
+		F.line = 19;
 		var tmp_208103 = tree_137048(43, []);
-		F.line = 21;
+		F.line = 19;
 		tmp_208103.class = "continer";
 		L1: do {
-			F.line = 22;
+			F.line = 20;
 			var i_208104 = null;
 			F.line = 691;
 			var colontmp__208147 = null;
-			F.line = 22;
+			F.line = 20;
 			colontmp__208147 = HEX5BHEX5D_190196(s_208061, makeNimstrLit("images"));
 			if (!((colontmp__208147.kind == 6))) {
 			F.line = 693;
@@ -4212,17 +4212,17 @@ function part_208059(s_208061) {
 							i_208151 = colontmp__208153[chckIndx(i_208155, 0, colontmp__208153.length+0-1)-0];
 							F.line = 695;
 							i_208104 = i_208151;
-							F.line = 23;
+							F.line = 21;
 							var tmp_208110 = tree_137048(31, []);
-							F.line = 23;
+							F.line = 21;
 							tmp_208110.class = "media-body";
-							F.line = 24;
+							F.line = 22;
 							var tmp_208116 = tree_137048(75, []);
-							F.line = 24;
+							F.line = 22;
 							set_attr_135549(tmp_208116, "src", toJSStr(get_str_179679(i_208104, [])));
-							F.line = 24;
+							F.line = 22;
 							add_135777(tmp_208110, tmp_208116);
-							F.line = 24;
+							F.line = 22;
 							add_135777(tmp_208103, tmp_208110);
 							F.line = 3826;
 							i_208155 = addInt(i_208155, 1);
@@ -4235,28 +4235,28 @@ function part_208059(s_208061) {
 				} while(false);
 			} while(false);
 		} while(false);
-		F.line = 24;
+		F.line = 22;
 		add_135777(tmp_208097, tmp_208103);
-		F.line = 24;
+		F.line = 22;
 		add_135777(tmp_208091, tmp_208097);
-		F.line = 25;
+		F.line = 23;
 		var tmp_208123 = tree_137048(43, []);
-		F.line = 25;
+		F.line = 23;
 		tmp_208123.class = "col-sm-6 text-justify mb-0";
-		F.line = 26;
+		F.line = 24;
 		var tmp_208129 = tree_137048(22, []);
-		F.line = 26;
+		F.line = 24;
 		tmp_208129.class = "section-heading text-justify";
-		F.line = 26;
+		F.line = 24;
 		add_135777(tmp_208129, text_137175(get_str_179679(HEX5BHEX5D_190196(s_208061, makeNimstrLit("title")), [])));
-		F.line = 26;
+		F.line = 24;
 		add_135777(tmp_208123, tmp_208129);
 		L5: do {
-			F.line = 27;
+			F.line = 25;
 			var pa_208131 = null;
 			F.line = 691;
 			var colontmp__208162 = null;
-			F.line = 27;
+			F.line = 25;
 			colontmp__208162 = HEX5BHEX5D_190196(s_208061, makeNimstrLit("contents"));
 			if (!((colontmp__208162.kind == 6))) {
 			F.line = 693;
@@ -4282,11 +4282,11 @@ function part_208059(s_208061) {
 							i_208166 = colontmp__208168[chckIndx(i_208170, 0, colontmp__208168.length+0-1)-0];
 							F.line = 695;
 							pa_208131 = i_208166;
-							F.line = 28;
+							F.line = 26;
 							var tmp_208137 = tree_137048(31, []);
-							F.line = 28;
+							F.line = 26;
 							add_135777(tmp_208137, text_137175(get_str_179679(pa_208131, [])));
-							F.line = 28;
+							F.line = 26;
 							add_135777(tmp_208123, tmp_208137);
 							F.line = 3826;
 							i_208170 = addInt(i_208170, 1);
@@ -4299,11 +4299,11 @@ function part_208059(s_208061) {
 				} while(false);
 			} while(false);
 		} while(false);
-		F.line = 28;
+		F.line = 26;
 		add_135777(tmp_208091, tmp_208123);
-		F.line = 28;
+		F.line = 26;
 		add_135777(tmp_208085, tmp_208091);
-		F.line = 28;
+		F.line = 26;
 		add_135777(tmp_208078, tmp_208085);
 		result_208062 = tmp_208078;
 	framePtr = F.prev;
@@ -4317,11 +4317,11 @@ function parts_208186(sec_208188) {
 
 	var F={procname:"sections.parts",prev:framePtr,filename:"sections.nim",line:0};
 	framePtr = F;
-		F.line = 34;
-		F.line = 34;
+		F.line = 32;
+		F.line = 32;
 		var tmp_208196 = tree_137048(43, []);
 		L1: do {
-			F.line = 35;
+			F.line = 33;
 			var s_208197 = null;
 			if (!((sec_208188.kind == 6))) {
 			F.line = 693;
@@ -4347,7 +4347,7 @@ function parts_208186(sec_208188) {
 							i_208203 = colontmp__208205[chckIndx(i_208207, 0, colontmp__208205.length+0-1)-0];
 							F.line = 695;
 							s_208197 = i_208203;
-							F.line = 36;
+							F.line = 34;
 							add_135777(tmp_208196, part_208059(s_208197));
 							F.line = 3826;
 							i_208207 = addInt(i_208207, 1);
@@ -4799,55 +4799,87 @@ function main_container_214129(c_214131) {
 
 	var F={procname:"index.MainContainer",prev:framePtr,filename:"index.nim",line:0};
 	framePtr = F;
-		F.line = 34;
-		F.line = 34;
-		var tmp_214139 = tree_137048(43, []);
 		F.line = 35;
-		add_135777(tmp_214139, menu_content_213041(HEX5BHEX5D_190196(c_214131, makeNimstrLit("menu"))));
+		F.line = 35;
+		var tmp_214144 = tree_137048(43, []);
 		F.line = 36;
-		add_135777(tmp_214139, logoheader_214071(get_str_179679(HEX5BHEX5D_190196(c_214131, makeNimstrLit("logo")), []), get_str_179679(HEX5BHEX5D_190196(c_214131, makeNimstrLit("page_title")), [])));
+		add_135777(tmp_214144, menu_content_213041(HEX5BHEX5D_190196(c_214131, makeNimstrLit("menu"))));
 		F.line = 37;
-		add_135777(tmp_214139, parts_208186(HEX5BHEX5D_190196(c_214131, makeNimstrLit("sections"))));
+		add_135777(tmp_214144, logoheader_214071(get_str_179679(HEX5BHEX5D_190196(c_214131, makeNimstrLit("logo")), []), get_str_179679(HEX5BHEX5D_190196(c_214131, makeNimstrLit("page_title")), [])));
 		F.line = 38;
-		add_135777(tmp_214139, documentation_210054(HEX5BHEX5D_190196(c_214131, makeNimstrLit("documentation"))));
+		var tmp_214152 = tree_137048(43, []);
+		F.line = 38;
+		tmp_214152.class = "container";
 		F.line = 39;
-		add_135777(tmp_214139, collaborate_211041(c_214131));
+		var tmp_214158 = tree_137048(43, []);
+		F.line = 39;
+		tmp_214158.class = "col-md";
+		F.line = 39;
+		add_135777(tmp_214152, tmp_214158);
 		F.line = 40;
-		add_135777(tmp_214139, contact_212041(HEX5BHEX5D_190196(c_214131, makeNimstrLit("contacts"))));
-		result_214132 = tmp_214139;
+		var tmp_214164 = tree_137048(43, []);
+		F.line = 40;
+		tmp_214164.class = "col-md embed-responsive embed-responsive-16by9";
+		F.line = 41;
+		var tmp_214170 = tree_137048(76, []);
+		F.line = 41;
+		set_attr_135549(tmp_214170, "src", "https://www.youtube.com/embed/iDWjboeo0uM");
+		F.line = 42;
+		set_attr_135549(tmp_214170, "allowfullscreen", "true");
+		F.line = 42;
+		add_135777(tmp_214164, tmp_214170);
+		F.line = 42;
+		add_135777(tmp_214152, tmp_214164);
+		F.line = 43;
+		var tmp_214176 = tree_137048(43, []);
+		F.line = 43;
+		tmp_214176.class = "col-md";
+		F.line = 43;
+		add_135777(tmp_214152, tmp_214176);
+		F.line = 43;
+		add_135777(tmp_214144, tmp_214152);
+		F.line = 44;
+		add_135777(tmp_214144, parts_208186(HEX5BHEX5D_190196(c_214131, makeNimstrLit("sections"))));
+		F.line = 45;
+		add_135777(tmp_214144, documentation_210054(HEX5BHEX5D_190196(c_214131, makeNimstrLit("documentation"))));
+		F.line = 46;
+		add_135777(tmp_214144, collaborate_211041(c_214131));
+		F.line = 47;
+		add_135777(tmp_214144, contact_212041(HEX5BHEX5D_190196(c_214131, makeNimstrLit("contacts"))));
+		result_214132 = tmp_214144;
 	framePtr = F.prev;
 
 	return result_214132;
 
 }
 
-function create_dom_214156(data_214158) {
-	var result_214159 = null;
+function create_dom_214196(data_214198) {
+	var result_214199 = null;
 
 	var F={procname:"index.createDOM",prev:framePtr,filename:"index.nim",line:0};
 	framePtr = F;
 		if ((c_214021[0] === null)) {
-		F.line = 44;
+		F.line = 51;
 		load_data_214035();
 		}
 		
-		F.line = 45;
+		F.line = 52;
 		c_214021[0] = HEX5BHEX5D_190196(loaded_data_214020[0], lang_214019[0]);
-		F.line = 46;
-		F.line = 46;
-		var tmp_214175 = tree_137048(43, []);
-		F.line = 47;
-		add_135777(tmp_214175, main_container_214129(c_214021[0]));
-		F.line = 48;
-		var tmp_214181 = tree_137048(14, []);
-		F.line = 48;
-		set_attr_135549(tmp_214181, "src", "js/agency.js");
-		F.line = 48;
-		add_135777(tmp_214175, tmp_214181);
-		result_214159 = tmp_214175;
+		F.line = 53;
+		F.line = 53;
+		var tmp_214215 = tree_137048(43, []);
+		F.line = 54;
+		add_135777(tmp_214215, main_container_214129(c_214021[0]));
+		F.line = 55;
+		var tmp_214221 = tree_137048(14, []);
+		F.line = 55;
+		set_attr_135549(tmp_214221, "src", "js/agency.js");
+		F.line = 55;
+		add_135777(tmp_214215, tmp_214221);
+		result_214199 = tmp_214215;
 	framePtr = F.prev;
 
-	return result_214159;
+	return result_214199;
 
 }
-set_renderer_161878(create_dom_214156, "ROOT", null);
+set_renderer_161878(create_dom_214196, "ROOT", null);

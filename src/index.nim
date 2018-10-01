@@ -30,10 +30,17 @@ proc logoheader*(logo, title: string):Vnode =
           tdiv(class="intro-text"):
             img(class="mobil", src=logo, alt=title)
 
+            
 proc MainContainer(c: JsonNode): VNode =
   result = buildHtml(tdiv()):
     menuContent(c["menu"])
     logoheader(c["logo"].getStr(), c["page_title"].getStr())
+    tdiv(class="container"):
+      tdiv(class="col-md")
+      tdiv(class="col-md embed-responsive embed-responsive-16by9"):
+        iframe( src="https://www.youtube.com/embed/iDWjboeo0uM",
+                allowfullscreen="true")
+      tdiv(class="col-md")
     parts(c["sections"])
     documentation(c["documentation"])
     collaborate(c)
